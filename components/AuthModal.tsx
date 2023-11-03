@@ -37,10 +37,10 @@ const AuthModal = () => {
     <Modal 
       title="Welcome back" 
       description="Login to your account." 
-      isOpen={isOpen} 
-      onChange={() => {}} 
-    > AuthModal
-      {/* <Auth
+      isOpen={isOpen}
+      onChange={onChange} 
+    > 
+      <Auth
         supabaseClient={supabaseClient}
         providers={['github']}
         magicLink={true}
@@ -50,13 +50,13 @@ const AuthModal = () => {
             default: {
               colors: {
                 brand: '#404040',
-                brandAccent: '#22c55e'
+                brandAccent: 'red'
               }
             }
           }
         }}
         theme="dark"
-      /> */}
+      />
     </Modal>
   );
 }

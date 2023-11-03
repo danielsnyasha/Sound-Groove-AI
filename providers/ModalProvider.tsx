@@ -9,11 +9,11 @@ import { ProductWithPrice } from "@/types";
 import Modal from "@/components/Modal";
 
 interface ModalProviderProps {
-  products: ProductWithPrice[];
+  // products: ProductWithPrice[];
 }
 
 const ModalProvider: React.FC<ModalProviderProps> = ({
-  products
+  // products
 }) => {
   const [isMounted, setIsMounted] = useState(false);
 

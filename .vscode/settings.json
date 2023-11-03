@@ -1,0 +1,40 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    
+  "workbench.tree.fontSize": 14, // Adjust this value to your preferred font size
+  "editor.fontSize": 14, // Adjust this value to your preferred font size for the editor
+  "editor.fontFamily": "Helvetica" ,
+  "terminal.integrated.fontFamily": "'Courier New', monospace",
+  
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "files.autoSave": "off",
+  "files.autoSaveDelay": 56000,
+  
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.maxColumn": 80,
+  "editor.wordWrapColumn": 80,
+  
+  
+  "telemetry.enableTelemetry": false,
+  
+  "breadcrumbs.enabled": true,
+  "window.zoomLevel": 0,
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.showTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.tabCloseButton": "right",
+  "workbench.sideBar.location": "left",
+  
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "editor.renderWhitespace": "none",
+  "editor.cursorBlinking": "blink",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.lineHeight": 24,
+  "editor.lineNumbers": "on",
+  "editor.renderControlCharacters": false
+}
